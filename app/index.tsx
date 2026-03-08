@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import { Text } from "@react-native-ama/react-native";
 
 export default function Index() {
   return (
