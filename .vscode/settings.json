@@ -5,28 +5,18 @@
     "source.sortMembers": "explicit"
   },
 
+  "editor.formatOnSave": true,
+
   "[javascript]": {
-    "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   
@@ -38,7 +28,6 @@
     "typescriptreact"
   ],
   "eslint.enable": true,
-  "eslint.runtime": "/Users/reyaes/.nvm/versions/node/v22.11.0/bin/node",
   "eslint.codeActionsOnSave.mode": "all",
 
   "files.exclude": {
@@ -55,9 +44,6 @@
     120
   ],
   "editor.tabSize": 2,
-  "cSpell.words": [
-    "ditti"
-  ],
 
   "jest.jestCommandLine": "npm test --",
   "jest.runMode": "on-demand",
