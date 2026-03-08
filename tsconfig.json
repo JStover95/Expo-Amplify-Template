@@ -1,17 +1,20 @@
 {
-  "extends": "expo/tsconfig.base",
-  "types": ["react-native", "jest"],
+  "extends": "expo/tsconfig.base.json",
   "compilerOptions": {
     "strict": true,
+    "jsx": "react-native",
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/tests/*": ["tests/*"],
+      "@/app/*": ["app/*"],
+      "@/*": ["src/*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "environment.d.ts",
+    "expect-matchers.d.ts",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "jest.setup.js"
